@@ -1,0 +1,27 @@
+.Header-navbar-toggle {
+  background-color: #B5D546!important;
+}
+
+.Header-streaming-service-links {
+  color: #B5D546!important;
+}
+
+@media (max-width: 500px) {
+  .Header-navbar {
+    padding-left: 0!important;
+  }
+  
+  .Header-artist-name {
+    width: 50%;
+  }
+  
+  .Header-artist-name img {
+    width: 100%;
+  }
+  
+  .Header-nav-links {
+    flex-direction: row!important;
+    justify-content: space-around;
+    padding-left: 16px!important;
+  }
+}

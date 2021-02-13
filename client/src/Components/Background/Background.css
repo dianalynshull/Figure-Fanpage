@@ -1,0 +1,31 @@
+.Header-artist-name {
+  width: 25%;
+}
+
+.Header-artist-name img {
+  width: 100%;
+}
+
+.Header-navbar-toggle {
+  background-color: #B5D546!important;
+}
+
+.Header-streaming-service-links i {
+  font-size: 200%;
+  color: #B5D546!important;
+}
+
+.Header-streaming-service-links {
+  flex-direction: row!important;
+  justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+  .Header-artist-name {
+    width: 50%;
+  }
+  
+  .Header-artist-name img {
+    width: 100%;
+  }
+}
