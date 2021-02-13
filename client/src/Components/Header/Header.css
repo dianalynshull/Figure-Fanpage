@@ -1,3 +1,7 @@
+.Header-navbar {
+  background-color: rgba(10, 10, 10, .9)!important;
+}
+
 .Header-navbar-toggle {
   background-color: #B5D546!important;
 }
