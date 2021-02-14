@@ -1,22 +1,5 @@
 body {
   margin: 0;
-  height: 100vh;
-  overflow: scroll;
-  background-image: url("https://edmidentity.com/wp-content/uploads/2018/05/figure.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: ivory;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 2px;
-  line-height: 2;
-  font-weight: lighter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

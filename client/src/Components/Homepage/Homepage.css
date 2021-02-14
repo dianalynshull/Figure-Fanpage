@@ -1,11 +1,54 @@
-.Homepage-bio {
-  background-color: rgba(10, 10, 10, .9);
-  height: 73vh;
-  margin: 20px 0px 40px 0px;
-  padding: 20px 30px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  text-align: justify;
-  color: #D5D7CD;
+.Homepage-wrapper {
+  height: fit-content;
+  max-height: 100%;
   overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.Homepage-bio {
+  color: #ABABAB;
+  background-color: rgba(10, 10, 10, .9);
+  height: fit-content;
+  max-height: 100%;
+  text-align: justify;
+}
+.Homepage-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 575px) {
+  .Homepage-bio {
+    margin: 5vh 0px 25vh 0px;
+    padding: 20px 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .Homepage-bio {
+    margin: 5vh 7vw 30vh 7vw;
+    padding: 30px 40px;
+    font-weight: 200;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    line-height: 1.75;
+  }
+  .Homepage-bio p {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 781px) {
+  .Homepage-bio {
+    margin: 5vh 7vw 35vh 7vw;
+    line-height: 2;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Homepage-bio {
+    margin: 5vh 12vw 35vh 12vw;
+    line-height: 2.5;
+  }
 }

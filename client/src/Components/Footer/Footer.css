@@ -5,23 +5,29 @@
   position: absolute!important;
   bottom: 0;
 }
-
-.Footer-navbar-toggle {
-  background-color: #B5D546!important;
-}
-
 .Footer-streaming-service-links, .Footer-streaming-service-links:link, .Footer-streaming-service-links:visited {
   color: #272727!important;
   padding: 0px!important;
 }
-
 .Footer-streaming-service-links:hover, .Footer-streaming-service-links:active {
   transition: .25s;
   color: #B5D546!important;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 575px) {
+  .Footer-navbar {
+    height: 8vh;
+  }
   .Footer-streaming-service-links i {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .Footer-navbar {
+    height: 10vh;
+  }
+  .Footer-streaming-service-links i {
+    font-size: 3rem;
   }
 }

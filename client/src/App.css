@@ -1,0 +1,13 @@
+.App-wrapper {
+  color: ivory;
+  background-image: url("https://edmidentity.com/wp-content/uploads/2018/05/figure.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  height: 100vh;
+  overflow: hidden;
+}
