@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  height: 100vh;
+  overflow: scroll;
   background-image: url("https://edmidentity.com/wp-content/uploads/2018/05/figure.jpg");
   background-position: center center;
   background-size: cover;
