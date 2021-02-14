@@ -1,0 +1,30 @@
+.Footer-navbar {
+  background-color: #0A0A0A!important;
+  position: absolute!important;
+  bottom: 0;
+}
+
+.Footer-navbar-toggle {
+  background-color: #B5D546!important;
+}
+
+.Footer-streaming-service-links, .Footer-streaming-service-links:link, .Footer-streaming-service-links:visited {
+  color: #272727!important;
+  padding: 0px!important;
+}
+
+.Footer-streaming-service-links:hover, .Footer-streaming-service-links:active {
+  transition: .25s;
+  color: #B5D546!important;
+}
+
+@media (max-width: 500px) {
+  .Footer-navbar {
+    width: 100%;
+    justify-content: space-around!important;
+  }
+  
+  .Footer-streaming-service-links i {
+    font-size: 2rem;
+  }
+}
