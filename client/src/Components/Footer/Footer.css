@@ -1,4 +1,6 @@
 .Footer-navbar {
+  width: 100%;
+  justify-content: space-around!important;
   background-color: #0A0A0A!important;
   position: absolute!important;
   bottom: 0;
@@ -19,11 +21,6 @@
 }
 
 @media (max-width: 500px) {
-  .Footer-navbar {
-    width: 100%;
-    justify-content: space-around!important;
-  }
-  
   .Footer-streaming-service-links i {
     font-size: 2rem;
   }
